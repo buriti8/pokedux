@@ -1,0 +1,38 @@
+@import "antd/dist/antd.css";
+
+.App {
+	margin-top: 2rem;
+}
+
+.LogoImg {
+	margin-bottom: 2rem;
+}
+
+.ant-btn:active,
+.ant-btn:hover,
+.ant-btn:focus {
+	color: #008849;
+	border-color: #008849;
+}
+
+.ant-card {
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border-radius: 10px;
+}
+
+.ant-card:hover {
+	box-shadow: rgba(73, 73, 73, 0.35) 0px 5px 15px;
+}
+
+.ant-spin-dot-item {
+	background-color: #008849;
+}
+
+.ant-input-search .ant-input:hover,
+.ant-input-search .ant-input:focus {
+	border-color: #008849;
+}
+
+.ant-input:focus, .ant-input-focused {
+    box-shadow: 0 0 0 2px rgba(35, 243, 115, 0.2);
+}
